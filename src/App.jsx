@@ -10,11 +10,15 @@ import HomePage from "./pages/HomePage";
 import ChiSiamoPage from "./pages/ChiSiamoPage";
 import ProductsPage from "./pages/ProductsPage";
 
+// import dell NavBar
+import NavBar from './components/NavBar';
+
 function App() {
 
 
   return (
     <BrowserRouter>
+      <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/chisiamo" element={<ChiSiamoPage />} />
