@@ -20,6 +20,7 @@ function Prodotti() {
                 {prodotti.map(prodotto => (
                     <li key={prodotto.id}>
                         <NavLink to={`/products/${prodotto.id}`}>{prodotto.name}</NavLink>
+                        <img src={prodotto.image} alt="#" />
                         <p>{prodotto.content}</p>
                         <label>{prodotto.ingredients}</label>
 

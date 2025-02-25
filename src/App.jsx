@@ -14,7 +14,7 @@ import ProductsPage from "./pages/ProductsPage";
 import NavBar from './components/NavBar';
 
 // import componente dettaglio
-// import ProductDetails from './ProductDetails';
+import ProductDetails from './components/ProductDetails';
 
 function App() {
 
@@ -26,7 +26,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/chisiamo" element={<ChiSiamoPage />} />
         <Route path="/products" element={<ProductsPage />} />
-        {/* <Route path="/products/:id" element={<ProductDetails />} /> */}
+        <Route path="/products/:id" element={<ProductDetails />} />
       </Routes>
     </BrowserRouter>
   )
