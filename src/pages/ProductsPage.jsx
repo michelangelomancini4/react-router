@@ -22,7 +22,7 @@ function Prodotti() {
                         <NavLink to={`/products/${prodotto.id}`}>{prodotto.name}</NavLink>
                         <img src={prodotto.image} alt="#" />
                         <p>{prodotto.content}</p>
-                        <label>{prodotto.ingredients}</label>
+                        <label className='ingredients'>{prodotto.ingredients}</label>
 
                     </li>
                 ))}
