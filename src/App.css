@@ -17,6 +17,7 @@ nav {
   background: #0044cc;
   padding: 10px;
   border-radius: 10px;
+  margin-bottom: 18px;
 }
 
 nav ul {
@@ -103,18 +104,30 @@ p {
   line-height: 1.6;
 }
 
-/* Ingredienti */
-.ingredients {
-  color: brown;
-  text-align: center;
-  margin-top: 20px;
-  padding: 10px;
-  background: #fffae6;
-  border: 1px solid #ffcc00;
-  border-radius: 5px;
+.prevnext {
+  margin-right: 20px;
+  color: rgb(167, 9, 167);
+  text-decoration: none;
+  font-weight: bold;
+
 }
 
-.ingredients li {
 
-  /* padding: 5px 0; */
+.ingredient-list {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ingredient-list h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #2284db;
+}
+
+.ingredient-list label {
+  margin-top: 10px;
 }

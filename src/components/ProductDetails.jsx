@@ -22,14 +22,15 @@ function ProductDetails() {
         <>
             {/* logica per gestire visualizzazione pietanza precedente o successiva */}
             <div>
-                <Link to={`http://localhost:5173/products/${id - 1}`}>Prev</Link>
-                <Link to={`http://localhost:5173/products/${parseInt(id) + 1}`}>Next</Link>
+                <Link to={`http://localhost:5173/products/${id - 1}`} className='prevnext' >&#8656; POST PRECEDENTE </Link>
+                <Link to={`http://localhost:5173/products/${parseInt(id) + 1}`} className='prevnext' >POST SUCCESSIVO &#8658;</Link>
             </div>
-            <div>
-                <h2><strong>Dettagli:</strong> piatto numero {prodotto.id} &#8658;{prodotto.name}</h2>
+            <div className='ingredient-list'>
+                <h2><strong>Dettagli </strong>(piatto numero {prodotto.id}):</h2>
+                <h3>  &#8658;{prodotto.name}</h3>
                 <img src={prodotto.image} alt={prodotto.name} />
                 <p>{prodotto.content}</p>
-                <label>{prodotto.ingredients}</label>
+                <label>INGREDIENTI PRINCIPALI:{prodotto.ingredients}</label>
             </div>
         </>
     );
