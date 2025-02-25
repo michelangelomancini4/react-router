@@ -13,6 +13,9 @@ import ProductsPage from "./pages/ProductsPage";
 // import dell NavBar
 import NavBar from './components/NavBar';
 
+// import componente dettaglio
+// import ProductDetails from './ProductDetails';
+
 function App() {
 
 
@@ -23,6 +26,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/chisiamo" element={<ChiSiamoPage />} />
         <Route path="/products" element={<ProductsPage />} />
+        {/* <Route path="/products/:id" element={<ProductDetails />} /> */}
       </Routes>
     </BrowserRouter>
   )

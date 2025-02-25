@@ -1,3 +1,7 @@
+body {
+  background-color: coral;
+}
+
 nav {
   background-color: rgb(11, 89, 197);
   padding: 1rem;
