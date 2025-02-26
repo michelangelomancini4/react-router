@@ -14,8 +14,8 @@ function Prodotti() {
 
     return (
         // output in pagina
-        <div>
-            <h2>Prodotti</h2>
+        <div className='productspage'>
+            <h2>I NOSTRI PIATTI:</h2>
             <ul>
                 {prodotti.map(prodotto => (
                     <li key={prodotto.id}>

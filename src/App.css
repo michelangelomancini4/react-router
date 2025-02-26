@@ -6,16 +6,24 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: goldenrod;
-  color: #333;
   padding: 20px;
+  background-color: #4097e3;
+  color: #333;
+}
+
+
+.productspage {
+
+  background-image: url("https://media.istockphoto.com/id/1128687123/it/foto/borsa-della-spesa-piena-di-verdure-fresche-e-frutta.jpg?s=2048x2048&w=is&k=20&c=rJaU2saEeU__GSk67IIec8KFN2KOG4N0hwA44dHMfwg=");
+  background-size: contain;
+  background-position: center;
 }
 
 /* Navbar */
 nav {
 
   background: #0044cc;
-  padding: 10px;
+  padding: 6px;
   border-radius: 10px;
   margin-bottom: 18px;
 }
@@ -31,7 +39,7 @@ nav ul {
 nav a {
   color: #f61e1e;
   text-decoration: none;
-  padding: 5px;
+  padding: 2px;
   font-weight: bold;
   transition: 0.3s;
   text-align: center;
